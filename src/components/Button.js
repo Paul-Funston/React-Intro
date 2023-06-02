@@ -4,13 +4,13 @@ function Button(props){
 
   let btnText = props.isPrimary ? "Primary" : "Secondary";
 
-return (
-  <div className="container">
-    <button className={className}>
-      {btnText}
-    </button>
-  </div>
-);
+  return (
+    <div className="container">
+      <button className={className}>
+        {btnText}
+      </button>
+    </div>
+  );
 }
 
 export default Button;

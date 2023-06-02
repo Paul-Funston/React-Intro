@@ -3,17 +3,17 @@ import Button from "./Button";
 function Banner(props){
 
   return (
-    <section>
+    <section className="bg-white">
       <div className="container pt-5 pb-5 text-center">
         <div className="row ">
-        <div className="col">
-          <h2>{props.title}</h2>
-        </div>
+          <div className="col">
+            <h2>{props.title}</h2>
+          </div>
         </div>
         <div className="row ">
-        <div className="col">
-          <p> {props.text} </p>
-        </div>
+          <div className="col">
+            <p> {props.text} </p>
+          </div>
         </div>
         <div className="row ">
           <div className="col">
@@ -26,7 +26,5 @@ function Banner(props){
       </div>
     </section>
   );
-  
 }
-
 export default Banner;

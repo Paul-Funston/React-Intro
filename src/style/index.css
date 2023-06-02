@@ -20,6 +20,20 @@
       monospace;
   }
 
+  .card {
+    transform: translateY(0);
+  }
+  .card:hover {
+    box-shadow: 10px 12px 10px 0 rgb(20 20 20 / 0.2), 0 10px 12px 0 rgb(0 0 0 / 0.1);
+    animation: pop .1s linear forwards;
+    
+  }
+
+  
+  @keyframes pop {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(-10px);}
+  }
 
 }
 
