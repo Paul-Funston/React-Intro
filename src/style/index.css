@@ -17,6 +17,13 @@
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
   }
+
+  Footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
 }
 
 
